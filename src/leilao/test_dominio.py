@@ -71,6 +71,6 @@ class TestAvaliador(TestCase):
 
         menor_valor_esperado = 100.0
         maior_valor_esperado = 200.0
-1
+
         self.assertEqual(menor_valor_esperado, avaliador.menor_lance)
         self.assertEqual(maior_valor_esperado, avaliador.maior_lance)
